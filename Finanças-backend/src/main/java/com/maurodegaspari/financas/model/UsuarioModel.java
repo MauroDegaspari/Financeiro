@@ -1,5 +1,6 @@
 package com.maurodegaspari.financas.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,16 +11,19 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name ="tb_usuario")
-public class UsuarioModel {
+public class UsuarioModel implements Serializable {
+	private static final long serialVersionUID = 1L;
 
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String usuario;
 	
+	@JsonIgnore
 	@OneToMany(mappedBy = "usuario")
 	private List<GastoModel> gasto = new ArrayList<>(); 
 
