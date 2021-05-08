@@ -1,5 +1,9 @@
 package com.maurodegaspari.financas.repositories;
 
-public interface GastoRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.maurodegaspari.financas.model.GastoModel;
+
+public interface GastoRepository extends JpaRepository<GastoModel, Long> {
 
 }
