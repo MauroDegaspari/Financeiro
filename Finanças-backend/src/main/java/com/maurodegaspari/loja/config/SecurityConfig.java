@@ -1,4 +1,4 @@
-package com.maurodegaspari.financas.config;
+package com.maurodegaspari.loja.config;
 
 import java.util.Arrays;
 
