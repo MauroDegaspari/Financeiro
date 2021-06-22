@@ -8,6 +8,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 // MAPEAMENTO ENTITADE RELACIONAL
 @Entity
 @Table(name ="tb_vendas")
@@ -15,6 +17,7 @@ public class Vendas {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	@JsonIgnore
 	private Long id;
 	
 	private double venda;
