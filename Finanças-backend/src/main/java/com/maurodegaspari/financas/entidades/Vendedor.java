@@ -1,4 +1,4 @@
-package com.maurodegaspari.loja.entidade;
+package com.maurodegaspari.financas.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ import javax.persistence.Table;
 public class Vendedor {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE) 
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private Long id;
 	private String nome;
 	

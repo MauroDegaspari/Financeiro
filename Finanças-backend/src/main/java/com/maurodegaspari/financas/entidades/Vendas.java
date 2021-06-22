@@ -1,4 +1,4 @@
-package com.maurodegaspari.loja.entidade;
+package com.maurodegaspari.financas.entidades;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,14 +14,14 @@ import javax.persistence.Table;
 public class Vendas {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE) 
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private Long id;
 	
 	private double venda;
 	private double soma;
 	
 	@ManyToOne
-	@JoinColumn(name ="id")
+	@JoinColumn(name ="id_vendedor")
 	private Vendedor vendedor;
 	
 	

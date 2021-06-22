@@ -1,10 +1,10 @@
-package com.maurodegaspari.loja;
+package com.maurodegaspari.financas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LojaApplicationTests {
+class FinancasApplicationTests {
 
 	@Test
 	void contextLoads() {

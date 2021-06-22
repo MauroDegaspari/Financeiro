@@ -1,13 +1,13 @@
-package com.maurodegaspari.loja;
+package com.maurodegaspari.financas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LojaApplication {
+public class FinancasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LojaApplication.class, args);
+		SpringApplication.run(FinancasApplication.class, args);
 	}
 
 }
