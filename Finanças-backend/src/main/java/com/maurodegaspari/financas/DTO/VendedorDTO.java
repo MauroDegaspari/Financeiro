@@ -1,4 +1,4 @@
-package com.maurodegaspari.financas.vendedorDTO;
+package com.maurodegaspari.financas.DTO;
 
 import java.io.Serializable;
 

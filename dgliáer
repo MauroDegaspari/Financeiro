@@ -1,0 +1,77 @@
+[33mcommit 89ee0d2f80e1bd4cf0a23c165bb53d293cd1bb79[m[33m ([m[1;36mHEAD -> [m[1;32mbackend[m[33m, [m[1;31morigin/backend[m[33m)[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Tue Jun 22 22:39:37 2021 -0300
+
+    implementação de repository,service,dto e controller da entidade -Vendas- endPoint ok
+
+[33mcommit de0bf4394e513f5b7808b4433b6b75aca5f475cf[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Tue Jun 22 10:53:11 2021 -0300
+
+    implementação de repository,service,dto e controller da entidade -Vendedor- endPoint ok
+
+[33mcommit 4b619893f2a9a56b9a3a4e3560378d3a61bb49da[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Mon Jun 21 21:23:09 2021 -0300
+
+    correção backend
+
+[33mcommit 32efe3967264b890b4d9ea0420b7d8d6e7b30480[m[33m ([m[1;31morigin/feature/backend[m[33m, [m[1;32mfeature/backend[m[33m)[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Mon Jun 21 20:55:11 2021 -0300
+
+    novo back-and
+
+[33mcommit 39246a9fa76d8b1098b4b7874a90344192fa6bbf[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Sun May 9 07:58:14 2021 -0300
+
+    pagination
+
+[33mcommit eb104fb0234b148c4919dc5b882d22edcbad04af[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Sat May 8 12:32:06 2021 -0300
+
+    endpoit gastos
+
+[33mcommit 21ff18ae1dd1ea0ac5897f285b10fcc89476d546[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Fri May 7 18:14:05 2021 -0300
+
+    package Repositories, services endpoint /usuarios
+
+[33mcommit 501907b1658f99e07f0117b72e3a9b17876ebb9b[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Fri May 7 16:50:38 2021 -0300
+
+    adição de banco H2
+
+[33mcommit 673df251bdcf7863642f3f1560033d710131c874[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Wed May 5 18:08:12 2021 -0300
+
+    Add de Configuração CORS e Package model - usuario & gasto
+
+[33mcommit 8e2f3d4f8d73d929ddf569328d095cdc8b2c71f6[m[33m ([m[1;31morigin/feature/frontend[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mfeature/frontend[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Wed May 5 17:11:05 2021 -0300
+
+    atualização pastas
+
+[33mcommit 7f32df7136e4d7580e1c5050015b09bcddf559e5[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Mon May 3 17:57:27 2021 -0300
+
+    componentes, navbar, footer
+
+[33mcommit 6aa24609c8a025e9a3026b15b3b976a1e687ac89[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Mon May 3 16:46:00 2021 -0300
+
+    Bootstrep
+
+[33mcommit 67b531f2b92672baa90b66d6c2db64fdcb9a97be[m[33m ([m[1;32mmain[m[33m)[m
+Author: maurodegaspari <mauro_degaspari@hotmail.com>
+Date:   Mon May 3 15:57:24 2021 -0300
+
+    Projeto inicial
