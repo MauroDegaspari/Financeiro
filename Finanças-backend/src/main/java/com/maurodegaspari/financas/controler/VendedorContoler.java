@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.maurodegaspari.financas.DTO.VendedorDTO;
 import com.maurodegaspari.financas.entidades.Vendedor;
 import com.maurodegaspari.financas.servicos.VendedorServico;
-import com.maurodegaspari.financas.vendedorDTO.VendedorDTO;
 
 @RestController
 @RequestMapping(value="/vendedor")
